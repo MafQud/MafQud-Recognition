@@ -1,9 +1,9 @@
 import numpy as np
-from MafQud1 import MafQud
+from MafQud_internal import MafQud_internal
 from data_preprocessing.clean_images import train_test_split
 
 
-mafqud = MafQud()
+mafqud = MafQud_internal()
 dataset = 'three_shot'  
 op = 'train-test-split'
 operations = ['first-stage', 'second-stage', 'train-test-split']
